@@ -1,0 +1,141 @@
+/* Footer main container */
+.footer {
+    color: #000000;
+    padding: 40px 20px;
+    text-align: center;
+    /* background: linear-gradient(to bottom, rgba(33, 173, 252, 1) 0%, rgba(177, 178, 181, 0) 100%); */
+    background-color: #231f41;
+    border: none;
+    border-radius: 0;
+}
+
+/* Footer content flex container */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Footer section styling */
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+
+.footer-section p {
+ color: #ffffff;
+}
+
+/* Section headings */
+.footer-heading {
+    font-size: 1.5rem;
+    color: #cccccc;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Contact links (phone and email) */
+.contact-link {
+    color: #cccccc;;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+/* Footer links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin: 8px 0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #cccccc;
+}
+
+/* Social and Logo Section */
+.social-logo {
+    display: flex;
+    flex-direction: column; /* Arranges social and logo containers in rows */
+    align-items: cente;
+    margin: 30px 0;
+    gap: 15px;
+}
+
+/* Social Column */
+.social-column {
+    text-align: center;
+    width: 100%; /* Ensures full width for both rows */
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #cccccc;
+}
+
+/* Logo Image */
+.logo-image {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto;
+    align-items: flex-end;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    border-top: 1px solid #333333;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+
+/* Tablet and smaller screens (up to 1024px) */
+@media (max-width: 1024px) {
+    .footer-content {
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        min-width: 150px;
+        margin: 15px;
+    }
+
+    .footer-heading {
+        font-size: 1.3rem;
+    }
+
+    .footer-links li {
+        margin: 6px 0;
+    }
+}
